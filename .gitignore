@@ -1,0 +1,17 @@
+# Ignorar archivos de configuración personal
+*.iso
+*.iml
+*.log
+*.cache/
+*.config/
+.idea/
+.vscode/
+.DS_Store
+
+# Ignorar archivos del sistema
+*.swp
+*.swo
+*.tmp
+
+# Ignorar carpetas de usuario en Linux
+/home/**/*
