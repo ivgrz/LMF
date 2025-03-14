@@ -30,6 +30,16 @@ for (let palo of palos){
         }
     
     }
+
+return baraja
+
+}
+function barajar(baraja){
+    baraja.sort(() => Math.random() - 0.5)
 }
 
+function robar(baraja,mano){
+    mano.unshift(baraja[0])
+    baraja.unshift()
+}
 console.log(barajaEspañola)
