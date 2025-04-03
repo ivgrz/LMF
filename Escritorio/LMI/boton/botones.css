@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'OldLondon';
+    src: url('OldLondon.ttf') format('truetype');
+}
+
+.miBoton{
+    all: unset;
+    font-family: 'OldLondon';
+    font-size: 40px;
+    text-shadow: 1px 1px 5px black;
+    
+
+    background-image: url("papel.jpg");
+    background-size: cover;
+    background-position: center;
+
+    text-justify: center;
+    text-align: center;
+
+    height: 100px;
+    width: 300px;
+
+}
+
+.miBoton:hover{
+    filter: sepia(20%) blur(1px) brightness(97%) hue-rotate(7deg) saturate(152%) opacity(93%) contrast(99%) invert(8%);
+
+}
+
+.miBoton :active{
+    scale:1.2;
+}
