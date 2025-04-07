@@ -1,0 +1,19 @@
+body {
+    background-image:url(https://i.pinimg.com/736x/e8/98/62/e89862f3e4c1fe3ea4d94ac4e8439066.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#excusa {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
